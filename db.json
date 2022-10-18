@@ -1,0 +1,27 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Matt",
+      "lastName": "Pickett",
+      "email": "bigpoppi@gmail.com"
+    },
+    {
+      "id": "2",
+      "firstName": "Matt",
+      "lastName": "Pickett",
+      "email": "bigpoppi@gmail.com"
+    },
+    {
+      "id": "3",
+      "firstName": "Matt",
+      "lastName": "Pickett",
+      "email": "bigpoppi@gmail.com"
+    },
+    {
+      "id": "4",
+      "firstName": "John",
+      "lastName": "Doe"
+    }
+  ]
+}
