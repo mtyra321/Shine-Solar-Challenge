@@ -29,5 +29,12 @@
 >
 > 4. Once completed, email mpickett@shinesolar.com with a link to your newly created repository. I will clone your repo and test for completion on the same backend server. Please include in your submission if you are applying for an internship or full-time position and your available start date. 
 
+> Here are some helpful colors that I used.
+
+```
+#F5F6F7
+#2485E1
+#425563
+```
 
 ### Happy Coding!
