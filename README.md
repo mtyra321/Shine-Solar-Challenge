@@ -1,6 +1,6 @@
-##Thank you for applying to Shine Solar!
+## Thank you for applying to Shine Solar!
 
-###Summary
+### Summary
 
 > This repository contains a nodejs Mock JSON server. 
 > 
@@ -10,7 +10,7 @@
 > What is [json-server?](https://github.com/typicode/json-server)
 
 
-###Instructions 
+### Instructions 
 
 > 1. Create a web application (in either javascript or python, your choice) that querys data from this backend server. The web app should look as close to the provided designs as possible. 
     [loom video](https://www.loom.com/share/e5f4a6dbc5bc43c19cfb277d1782c48f)
@@ -30,4 +30,4 @@
 > 4. Once completed, email mpickett@shinesolar.com with a link to your newly created repository. I will clone your repo and test for completion on the same backend server. Please include in your submission if you are applying for an internship or full-time position and your available start date. 
 
 
-###Happy Coding!
+### Happy Coding!
