@@ -1,4 +1,4 @@
-## Thank you for applying to Shine Solar!
+## Thank you for applying to Shine Solar! **(DO NOT FORK)**
 
 ### Summary
 
@@ -20,7 +20,6 @@
 > [Design 4](https://storage.googleapis.com/flex-icons/tech-challenge-screenshots/tech-challenge-4.png)
 > 
 > 2. You will need to clone this repo and run it in your local dev environment. 
-**(DO NOT FORK)**
 > 
 > 3. The 3 prompts you will need to query for are:
 > - Return all the users found on the server
