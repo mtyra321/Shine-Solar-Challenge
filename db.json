@@ -2,26 +2,113 @@
   "users": [
     {
       "id": "1",
-      "firstName": "Matt",
-      "lastName": "Pickett",
-      "email": "bigpoppi@gmail.com"
+      "firstName": "John",
+      "lastName": "Stamos",
+      "email": "fullhouse@gmail.com"
     },
     {
       "id": "2",
-      "firstName": "Matt",
-      "lastName": "Pickett",
-      "email": "bigpoppi@gmail.com"
+      "firstName": "Octo",
+      "lastName": "cat",
+      "email": "byui4evr@gmail.com"
     },
     {
       "id": "3",
       "firstName": "Matt",
       "lastName": "Pickett",
-      "email": "bigpoppi@gmail.com"
+      "email": "code4schmeckl@gmail.com"
     },
     {
       "id": "4",
-      "firstName": "John",
-      "lastName": "Doe"
+      "firstName": "Jane",
+      "lastName": "Doe",
+      "email": "1truemorty@gmail.com"
+    },
+    {
+      "id":"5",
+      "firstName":"Steve",
+      "lastName":"Nash",
+      "email":"freethrows@gmail.com"
+    }
+  ],
+  "orders": [
+    {
+      "userId": "4",
+      "price": "10000",
+      "product": "Solar",
+      "status": "scheduled"
+    },
+    {
+      "userId": "4",
+      "price": "15000",
+      "product": "Solar",
+      "status": "sold"
+    },
+    {
+      "userId": "4",
+      "price": "30000",
+      "product": "Solar",
+      "status": "scheduled"
+    },
+    {
+      "userId": "4",
+      "price": "50000",
+      "product": "Solar",
+      "status": "scheduled"
+    },
+    {
+      "userId": "4",
+      "price": "5600",
+      "product": "EE",
+      "status": "sold"
+    },
+    {
+      "userId": "4",
+      "price": "6700",
+      "product": "EE",
+      "status": "scheduled"
+    },
+    {
+      "userId": "4",
+      "price": "10000",
+      "product": "EE",
+      "status": "scheduled"
+    },
+    {
+      "userId": "1",
+      "price": "20000",
+      "product": "Solar",
+      "status": "sold"
+    },
+    {
+      "userId": "1",
+      "price": "25000",
+      "product": "Solar",
+      "status": "sold"
+    },
+    {
+      "userId": "2",
+      "price": "30000",
+      "product": "Solar",
+      "status": "sold"
+    },
+    {
+      "userId": "2",
+      "price": "50000",
+      "product": "Solar",
+      "status": "scheduled"
+    },
+    {
+      "userId": "3",
+      "price":"100000",
+      "product": "Solar Shingles",
+      "status":"failed_credit"
+    },
+    {
+      "userId":"5",
+      "price":"5000",
+      "product":"HVAC",
+      "status":"sold"
     }
   ]
 }

@@ -2,9 +2,8 @@
   "name": "byui-technical-challenge",
   "version": "1.0.0",
   "description": "",
-  "main": "app.js",
+  "main": "",
   "scripts": {
-    "dev": "nodemon app.js",
     "json:server": "json-server --watch db.json"
   },
   "repository": {
