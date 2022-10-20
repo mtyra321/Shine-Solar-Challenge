@@ -1,11 +1,10 @@
 tr {
     background-color: #c2c5c7;
-height: 40px;
-
 }
 
-.titleRow {
-    height: 60px;
+
+tr:hover {
+    background-color: #c9ccce;
 }
 
 td {
@@ -30,7 +29,6 @@ table tr td:last-child {
     border-bottom-right-radius: 10px;
 }
 
-
 .buttonDiv {
     display: flex;
     justify-content: center;
@@ -38,7 +36,6 @@ table tr td:last-child {
     grid-row: 2;
 
 }
-
 
 button {
     background-color: #2485E1;
@@ -53,7 +50,7 @@ button {
 .answer {
     grid-template-columns: minmax(150px, 2.33fr) minmax(150px, 2.33fr);
     grid-template-rows: 40px auto auto;
-    background-color: #f5f8fa;
+    background-color: #F5F6F7;
     border-radius: 8px;
     height: 400px;
     overflow: auto;
