@@ -15,8 +15,7 @@ window.onload = function () {
     document.getElementById("button1").addEventListener('click', firstClick);
     document.getElementById("button2").addEventListener('click', secondClick);
     document.getElementById("button3").addEventListener('click', thirdClick);
-
-
+document.getElementsByClassName("titleRow")[0].height = "60px";
 }
 function firstClick() {
     loadJSON(function (response) {
