@@ -60,11 +60,13 @@ function thirdClick() {
             var orders = JSON.parse(response).orders;
             var table = document.getElementById("table3")
             for (i in orders) {
-                var row = table.insertRow()
-                row.insertCell(0).innerHTML = orders[i].price
-                row.insertCell(1).innerHTML = orders[i].product
-                row.insertCell(2).innerHTML = orders[i].status
-                row.insertCell(3).innerHTML = orders[i].userId
+                if (orders[i].userId == 4) {
+                    var row = table.insertRow()
+                    row.insertCell(0).innerHTML = orders[i].price
+                    row.insertCell(1).innerHTML = orders[i].product
+                    row.insertCell(2).innerHTML = orders[i].status
+                    row.insertCell(3).innerHTML = orders[i].userId
+                }
             }
         }
     });
