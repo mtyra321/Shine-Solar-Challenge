@@ -1,3 +1,4 @@
 ## Shine Solar BYU-I technical challenge
 
-## Matt Tyra
+# by Matt Tyra
+# 10/20/2022
