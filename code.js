@@ -1,20 +1,6 @@
 
-
-var customXMLHttpRequest = (function (jwtoken) {
-
-    function getXMLHttpRequest(method, url, async) {
-        var xmlHttpRequest = new XMLHttpRequest();
-        xmlHttpRequest.open(method, url, async);
-        xmlHttpRequest.setRequestHeader('Authorization', 'Bearer ' + jwtoken);
-        return xmlHttpRequest;
-    }
-
-    return getXMLHttpRequest;
-})(process.env.BearerToken);
-
 function loadJSON(callback) {
-
-    var xobj = customXMLHttpRequest('post', 'https://mtyra321.github.io/Shine-Solar-Challenge/', true);
+    var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
     xobj.open('GET', 'db.json', true);
     xobj.onreadystatechange = function () {
