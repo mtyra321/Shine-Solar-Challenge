@@ -37,6 +37,17 @@ table tr td:last-child {
 
 }
 
+
+.tableHeaderRow {
+    position: sticky;
+    top: 0;
+    background-color: #737475;
+}
+
+.tableHeaderRow:hover {
+    background-color: #898b8d;
+}
+
 button {
     background-color: #2485E1;
     border-color: #2485E1;
